@@ -1,0 +1,128 @@
+/* Banner Styles */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    /* background-image: url('img\\banner pic.jpg');  */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .overlay-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px; 
+  }
+  
+  .cards {
+    width: calc(25% - 20px);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 768px) {
+    .banner {
+      height: 200px; 
+    }
+  
+    .overlay-cards {
+      margin-top: -50px; 
+    }
+  
+    .card {
+      width: calc(100% - 0px); 
+    }
+  }
+  
+   
+      * {
+        box-sizing: border-box;
+      }
+    
+      .card-container
+       {
+        display: flex;
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        padding:10px;
+      }
+    
+      .cards {
+        flex: 0 0 auto;
+        width: 150px; 
+        margin:auto; 
+        border-radius: none;
+        /* overflow: hidden; */
+        padding: 10px;
+        
+        /* border:2px solid grey; */
+      }
+    
+      .cards>img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+  
+    
+      
+      @media screen and (max-width: 600px) {
+        .cards {
+          width: 150px;
+        }
+      }
+    
+      @media screen and (max-width: 400px) {
+        .cards {
+          width: 100px;
+        }
+      }
+      #tjob{
+        /* padding: 10px; */
+        margin: 5px;
+        /* background-color: aquamarine!important; */
+        width: 23rem;
+      height: 178px;
+  
+      }
+      #tjobrow{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .liked {
+        fill: red !important;
+    }
+
+    /* footer */
+ 
+      /* brows job */
+      a.more-jobs-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px; /* Adjust spacing as needed */
+        font-size: 18px;
+        color: #007bff; /* Link color */
+        text-decoration: none;
+    }
+    
+    a.more-jobs-link:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+      /* brows job */
+/* slider  */
+
+
